@@ -1,0 +1,69 @@
+:root {
+  --background: #FBFAFC;
+  /* Soft off-white */
+  --foreground: #1D1D1F;
+  /* Apple Dark Gray */
+
+  --primary: #F5E6E8;
+  /* Soft Rose/Pink */
+  --primary-accent: #Efbbc4;
+  /* Deeper Rose */
+  --secondary: #F5F5F7;
+  /* Apple Light Gray */
+
+  --text-primary: #1D1D1F;
+  --text-secondary: #86868B;
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+
+  --font-body: var(--font-inter);
+  --font-heading: var(--font-playfair);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--background);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
