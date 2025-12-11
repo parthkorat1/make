@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata = {
-  title: "Makeup Artist App - Master Your Look",
-  description: "Download the ultimate makeup learning app. Tutorials, Looks, and Progress Tracking.",
+  title: "Makeup Guide App - Master Your Look",
+  description: "Download the ultimate makeup guide app. Tutorials, Looks, and Progress Tracking.",
 };
 
 export default function RootLayout({ children }) {

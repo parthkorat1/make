@@ -6,7 +6,10 @@ export default function Home() {
     <div className={styles.main}>
       {/* Sticky Navbar */}
       <nav className={styles.navbar}>
-        <div className={styles.logo}>Makeup Artist</div>
+        <div className={styles.logo}>
+          <Image src="/logo.png" alt="Makeup Guide Logo" width={32} height={32} style={{ borderRadius: '8px', marginRight: '10px' }} />
+          Makeup Guide
+        </div>
         <a href="/makeup-artist.apk" download className={styles.navButton}>
           Download App
         </a>
@@ -25,6 +28,7 @@ export default function Home() {
         <div className={styles.buttonGroup}>
           <a href="/makeup-artist.apk" download className={styles.primaryButton}>
             Download for Android
+            <span style={{ fontSize: '0.8em', opacity: 0.8, marginLeft: '8px' }}>v1.0.1+2</span>
           </a>
           <a href="/makeup-artist.apk" download className={styles.secondaryButton}>
             Download for iOS
@@ -199,7 +203,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} Makeup Artist App. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Makeup Guide App. All rights reserved.</p>
       </footer>
     </div>
   );
