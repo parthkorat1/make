@@ -28,7 +28,7 @@ export default function Home() {
         <div className={styles.buttonGroup}>
           <a href="/makeup-artist.apk" download className={styles.primaryButton}>
             Download for Android
-            <span style={{ fontSize: '0.8em', opacity: 0.8, marginLeft: '8px' }}>v1.0.1+2</span>
+            <span style={{ fontSize: '0.8em', opacity: 0.8, marginLeft: '8px' }}>v1.1.0</span>
           </a>
           <a href="/makeup-artist.apk" download className={styles.secondaryButton}>
             Download for iOS
